@@ -1,9 +1,10 @@
 ---
+layout: post
 title: SSH连接GitHub
 description: 这里是如何配置ssh，并连接GitHub，使用Git来提交的自己本地项目的初始教程
 categories:
  - Git
-tags:Git SSH
+tags: Git SSH
 ---
 > 虽然这一步很简单，但终究是入门的要求，不管怎样还是记录一下吧
 
