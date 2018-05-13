@@ -1,9 +1,10 @@
 ---
+layout: post
 title: SSH连接GitHub
 description: 这里是如何配置ssh，并连接GitHub，使用Git来提交的自己本地项目的初始教程
 categories:
  - Git
-tags:Git SSH
+tags: Git SSH
 ---
 > 虽然这一步很简单，但终究是入门的要求，不管怎样还是记录一下吧
 
@@ -13,7 +14,6 @@ tags:Git SSH
 ```
     $ mkdir test && cd test;
     $ git init
-
 ```
 2. 新建一个文本并将其添加到资源库中
 ```
@@ -57,18 +57,17 @@ tags:Git SSH
 ```
     $ git remote add origin git@github.com:your-github-name/your-reo-name.git
 ```
-说明：
+说明:    
 * 添加之后远程库的名字就是`origin`,这是git默认的叫法，也可以改成别的，但是`origin`这个名字一看就知道是远程库。
 8. 将本地库的内容推送到远程库上
 ```
     $ git push -u origin master
 ```
-说明：
+说明:   
 * 由于远程库是空的，我们第一次推送`master`分支时，加上了`-u`参数，这时git不但会把本地的`master`分支
 内容推送到远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或
 拉取时就可以简化命令（不用再加`-u`参数）了。
-
-9. 参考链接
+9. 参考链接    
 (廖雪峰的官方网站)[https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000]
 (百度参考一)[https://www.cnblogs.com/yzg1/p/5773362.html]
 (百度参考二)[https://www.cnblogs.com/superGG1990/p/6844952.html]
