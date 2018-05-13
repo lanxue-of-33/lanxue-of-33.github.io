@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------
+﻿# ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
@@ -125,8 +125,8 @@ menu:
   # categories: 分类
   
   # 关于
-  about: /about/
-  # about: 关于
+  #about: /about/
+  
   
   # 归档页
   archives: /archives/
