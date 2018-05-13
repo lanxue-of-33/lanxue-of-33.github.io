@@ -68,6 +68,5 @@ tags: Git SSH
 内容推送到远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或
 拉取时就可以简化命令（不用再加`-u`参数）了。
 9. 参考链接    
-(廖雪峰的官方网站)[https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000]
-(百度参考一)[https://www.cnblogs.com/yzg1/p/5773362.html]
-(百度参考二)[https://www.cnblogs.com/superGG1990/p/6844952.html]
+[百度参考一](https://www.cnblogs.com/yzg1/p/5773362.html)
+[百度参考二](https://www.cnblogs.com/superGG1990/p/6844952.html)
