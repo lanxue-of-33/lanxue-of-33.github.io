@@ -77,13 +77,13 @@ tags: Ajax MySQL JavaScript php
 					console.log(user.email);
 					var output="";
 					//使用es6语法模板进行拼接
-					output+=`
-						<ul>
-							<li>${user.id}</li>
-							<li>${user.name}</li>
-							<li>${user.email}</li>
-						</ul>
-					`;
+					//output+=`
+					//	<ul>
+					//		<li>${user.id}</li>
+					//		<li>${user.name}</li>
+					//		<li>${user.email}</li>
+					//	</ul>
+					//`;
 					document.getElementById('user').innerHTML=output;
 				}
 			}
@@ -101,13 +101,13 @@ tags: Ajax MySQL JavaScript php
 					var output="";
 					//遍历数组
 					for (var i in users) {
-						output+=`
-							<ul>
-								<li>${users[i].id}</li>
-								<li>${users[i].name}</li>
-								<li>${users[i].email}</li>
-							</ul>
-						`;
+					//	output+=`
+					//		<ul>
+					//			<li>${users[i].id}</li>
+					//			<li>${users[i].name}</li>
+					//			<li>${users[i].email}</li>
+					//		</ul>
+					//	`;
 					}
 					document.getElementById('users').innerHTML=output;
 				}
@@ -117,18 +117,18 @@ tags: Ajax MySQL JavaScript php
 ```
 2. 新的知识：使用es6语法模板进行拼接    
 ```
-output+=`
-	<ul>
-		<li>${users[i].id}</li>
-		<li>${users[i].name}</li>
-		<li>${users[i].email}</li>
-	</ul>
-`;
+    //output+=`
+    //	<ul>
+    //		<li>${users[i].id}</li>
+    //		<li>${users[i].name}</li>
+    //		<li>${users[i].email}</li>
+    //	</ul>
+    //`;
 ```
 ## 请求GitHub数据接口
 1. 步骤：
 ```
-var xhr=new XMLHttpRequest();
+     var xhr=new XMLHttpRequest();
 			xhr.open("Get","https://api.github.com/users",true);
 			xhr.onload=function(){
 				var users=JSON.parse(this.responseText);
@@ -199,8 +199,8 @@ var xhr=new XMLHttpRequest();
 2. php中所返回数据的格式处理：
 ```
     //这里利用的是自定义类来存储我们所读取的信息
-class User
-	{
+    class User
+    	{
 		
 		public $id;
 		public $username;
