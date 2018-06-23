@@ -149,8 +149,8 @@ var xhr=new XMLHttpRequest();
 			}
 			xhr.send(null);
 ```
-2. 所获取知识：
-* 第一次知道它们所说的API接口原来是这样用的，是为我们调取数据等服务的。
+2. 所获取知识：    
+*  第一次知道它们所说的API接口原来是这样用的，是为我们调取数据等服务的。
 ## 利用Ajax请求php接口
 1. 利用post方法请求php中的数据
 ```
@@ -198,7 +198,7 @@ function postForm(e){
    [php页面](https://github.com/lanxue-of-33/base-of-php/blob/master/Ajaxsandbox/users.php)
 2. php中所返回数据的格式处理：
 ```
-//这里利用的是自定义类来存储我们所读取的信息
+    //这里利用的是自定义类来存储我们所读取的信息
 class User
 	{
 		
