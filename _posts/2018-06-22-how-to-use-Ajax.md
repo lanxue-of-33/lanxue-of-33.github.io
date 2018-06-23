@@ -115,7 +115,7 @@ tags: Ajax MySQL JavaScript php
 			xhr.send();
 
 ```
-2. 新的知识：使用es6语法模板进行拼接
+2. 新的知识：使用es6语法模板进行拼接    
 ```
 output+=`
 	<ul>
@@ -154,7 +154,7 @@ var xhr=new XMLHttpRequest();
 ## 利用Ajax请求php接口
 1. 利用post方法请求php中的数据
 ```
-function postForm(e){
+   function postForm(e){
 			//表单提交时会有默认刷新的事件
 			//e是一个默认事件对象
 			e.preventDefault();
