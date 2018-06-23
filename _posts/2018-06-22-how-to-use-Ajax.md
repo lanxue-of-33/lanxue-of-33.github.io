@@ -77,13 +77,13 @@ tags: Ajax MySQL JavaScript php
 					console.log(user.email);
 					var output="";
 					//使用es6语法模板进行拼接
-					//output+=`
+					//output+='
 					//	<ul>
 					//		<li>${user.id}</li>
 					//		<li>${user.name}</li>
 					//		<li>${user.email}</li>
 					//	</ul>
-					//`;
+					//';
 					document.getElementById('user').innerHTML=output;
 				}
 			}
@@ -101,13 +101,13 @@ tags: Ajax MySQL JavaScript php
 					var output="";
 					//遍历数组
 					for (var i in users) {
-					//	output+=`
+					//	output+='
 					//		<ul>
 					//			<li>${users[i].id}</li>
 					//			<li>${users[i].name}</li>
 					//			<li>${users[i].email}</li>
 					//		</ul>
-					//	`;
+					//	';
 					}
 					document.getElementById('users').innerHTML=output;
 				}
@@ -117,13 +117,13 @@ tags: Ajax MySQL JavaScript php
 ```
 2. 新的知识：使用es6语法模板进行拼接    
 ```
-    //output+=`
+    //output+='
     //	<ul>
     //		<li>${users[i].id}</li>
     //		<li>${users[i].name}</li>
     //		<li>${users[i].email}</li>
     //	</ul>
-    //`;
+    //';
 ```
 ## 请求GitHub数据接口
 1. 步骤：
